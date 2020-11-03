@@ -54,4 +54,38 @@ h1 {
 ul {
   list-style: none;
   padding-left: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background-color: #fff;
+  padding: 0.5em 2em;
+  border: none;
+}
+
+/* Layout */
+footer {
+  background-color: var(--med-teal);
+  padding: 1em;
+}
+
+/* Typography */
+.footer-tab__title {
+  color: var(--lt-yellow);
+}
+
+.footer-tab__link {
+  color: #fff;
+  text-transform: none;
 }
